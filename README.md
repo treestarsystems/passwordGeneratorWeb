@@ -1,5 +1,5 @@
 # Password Generator (Web)
-Single Page Web App implimentation of the bash script [MJNS passowrd-generator](https://github.com/mjnshosting/password-generator) to generate passwords
+Single Page Web App implimentation of the bash script [MJNS password-generator](https://github.com/mjnshosting/password-generator) to generate passwords
  
 ## Purpose
 I needed a customized password generator that does random characters and dictionary based password with a mix of numbers and special characters.
