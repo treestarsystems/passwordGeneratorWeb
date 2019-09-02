@@ -8,6 +8,7 @@ I needed a customized password generator that does random characters and diction
 * The included dictionary excludes words that have less than 10 characters (121642 words)
 #### Inspiraton: 
 [untroubled.org - Secure Passphrase Generator](https://untroubled.org/pwgen/ppgen.cgi) 
+
 [MJNS passowrd-generator](https://github.com/mjnshosting/password-generator)
 
 ## Help
