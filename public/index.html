@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="MJ Network Solutions Password Generator">
+  <meta name="keywords" content="password, generator, security">
+  <meta name="author" content="Tree Star Systems, LLC">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Password Generator </title>
+  <link rel="shortcut icon" href="images/shield.png" type="image/x-icon" />
+
+  <!-- ================== APP CSS START ================== -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- ================== APP CSS END ================== -->
+
+</head>
+
+<body>
+  <div class="login-container">
+    <div class="auth-screen-3">
+      <div class="banner-section">
+        <img src="images/shield.svg" alt="Password Generator">
+      </div>
+      <div class="auth-content" style="text-align:center">
+        <h3 class="mb-4" style="text-align:center">Password Generator</h3>
+	<button type="button" class="btn btn-primary btn-block" id="alpha-simple">Alpha Numeric</button>
+	<button type="button" class="btn btn-primary btn-block" id="complex">Complex</button>
+	<button type="button" class="btn btn-primary btn-block" id="dictionary">Dictionary</button>
+        <div style="padding:15px;text-align:center;display:none" id="password-list"></div>
+	</br>
+	<!-- Image Source: https://www.iconfinder.com/iconsets/whcompare-servers-web-hosting -->
+      	<a href="http://mjns.it" target="_blank"><img src="images/site.svg" alt="MJNS | " style="width:32px;height:auto">&nbsp;&nbsp;</a>
+      	<a href="https://github.com/treestarsystems" target="_blank"><img src="images/code.svg" alt="GitHub | " style="width:32px;height:auto">&nbsp;&nbsp;</a>
+      	<a href="https://github.com/mjnshosting/password-generator" target="_blank"><img src="images/cli.svg" alt="CLI" style="width:32px;height:auto"></a>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/pass-gen.js"></script>
+</body>
+</html>
