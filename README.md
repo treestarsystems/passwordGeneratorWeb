@@ -17,9 +17,11 @@ To install use git clone then configure your web server with "<install dir>/publ
 ```
 #Password Generator
 server {
-        listen 80;
-        listen [::]:80;
         server_name pass.mjns.it;
+        gzip on;
+        gzip_types      text/plain application/xml;
+        gzip_proxied    no-cache no-store private expired auth;
+        gzip_min_length 1000;
 
         location / {
                 root   /opt/passwordGeneratorWeb/public;
