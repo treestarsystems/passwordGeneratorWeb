@@ -29,4 +29,15 @@ server {
         }
 }
 ```
+### Ex: Apache
+```
+<VirtualHost *:80>
+        ServerName pass.mjns.it
+        DocumentRoot /var/www/html/passwordGeneratorWeb/public/
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+```
+I recommed you use Lets Encrypt to secure this page. Cheap, Easy, Fast but vulnerabilities may be present themselves later. Be careful.
+
 Once cloned and configured then open your browser, enter url, and finally click your password type then copy.
