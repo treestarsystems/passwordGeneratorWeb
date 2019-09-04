@@ -4,6 +4,8 @@ Single Page Web App implimentation of the bash script [MJNS password-generator](
 
 [Live Example](http://pass.mjns.it)
 
+[Example](pass-mjns-live.png)
+
 ## Purpose
 I needed a customized password generator that does random characters and dictionary based password with a mix of numbers and special characters.
  
