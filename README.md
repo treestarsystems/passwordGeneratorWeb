@@ -1,6 +1,7 @@
 # Password Generator (Web)
 Single Page Web App implimentation of the bash script [MJNS password-generator](https://github.com/mjnshosting/password-generator) to generate passwords
- 
+[Live Example](http://pass.mjns.it)
+
 ## Purpose
 I needed a customized password generator that does random characters and dictionary based password with a mix of numbers and special characters.
  
@@ -9,7 +10,7 @@ I needed a customized password generator that does random characters and diction
 #### Inspiraton: 
 [untroubled.org - Secure Passphrase Generator](https://untroubled.org/pwgen/ppgen.cgi) 
 
-[MJNS passowrd-generator](https://github.com/mjnshosting/password-generator)
+[MJNS password-generator](https://github.com/mjnshosting/password-generator)
 
 ## Help
 To install use git clone then configure your web server with "<install dir>/public" as the page root
