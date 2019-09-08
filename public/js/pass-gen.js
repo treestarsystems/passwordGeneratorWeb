@@ -6,7 +6,7 @@ $("#alpha-simple").click(function(){
 		passwords[i]= genRegular(20);
 	}
 	$.each(passwords, function(key, value) {
-    		html += `${value}</br>`;
+    		html += `<div>${value}</div>`;
 	});
 	document.getElementById("password-list").innerHTML = html;
 });
@@ -20,7 +20,7 @@ $("#complex").click(function(){
 		passwords[i]= genSpecial(20);
 	}
 	$.each(passwords, function(key, value) {
-    		html += `${value}</br>`;
+    		html += `<div>${value}</div>`;
 	});
 	document.getElementById("password-list").innerHTML = html;
 });
@@ -35,7 +35,7 @@ $("#dictionary").click(function(){
 		for (var i = 0; i < 20; i++) {
 			var word1 = insertSpecialChars(randomCaps(data.split(/\r\n|\r|\n/)[getRandomInt(1, count)]));
 			var word2 = insertSpecialChars(randomCaps(data.split(/\r\n|\r|\n/)[getRandomInt(1, count)]));
-			html += `${word1}${getRandomInt(1, 99)}${word2}</br>`;
+			html += `<div>${word1}${getRandomInt(1, 99)}${word2}</div>`;
 		}
 		document.getElementById("password-list").innerHTML = html;
 	});
